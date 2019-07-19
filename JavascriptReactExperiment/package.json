@@ -1,0 +1,31 @@
+{
+  "name": "acc-test-matrix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@material-ui/core": "^4.1.2",
+    "babel-core": "^6.26.3",
+    "d3": "^5.9.2",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-d3-graph": "^2.1.0",
+    "react-dom": "^16.8.6",
+    "react-test-renderer": "^16.8.6"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0"
+  }
+}
